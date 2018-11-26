@@ -15,14 +15,14 @@ namespace AzureDeploymentSample1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page from GitHub using local Git Deployment.";
+            ViewBag.Message = "Your application description page from GitHub using Visual Studio Client.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page from GitHub using local Git Deployment.";
+            ViewBag.Message = "Your contact page from GitHub using Visual Studio Client.";
 
             return View();
         }
